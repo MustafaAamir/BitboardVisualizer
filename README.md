@@ -1,3 +1,6 @@
+
+
+
 # Square Enumeration
 
 Little endian rank-file (LERF) mapping implies following C++ enumeration:
@@ -39,5 +42,7 @@ h1-a8 antidiagonal 0x0102040810204080
 light squares      0x55AA55AA55AA55AA
 dark squares       0xAA55AA55AA55AA55
 ```
+# GUI
+![image](https://github.com/user-attachments/assets/96af4a17-14df-4739-b486-dc3dfab17794)
 
 From: https://www.chessprogramming.org/Square_Mapping_Considerations#Endianness
