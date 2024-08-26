@@ -1,4 +1,4 @@
-#Square Enumeration
+# Square Enumeration
 
 Little endian rank-file (LERF) mapping implies following C++ enumeration:
 
@@ -15,7 +15,7 @@ enum enumSquare {
 };
 ```
 
-#Compass Rose
+# Compass Rose
 
 We rely on the compass rose to identify ray-directions with following increments to neighbored squares.
 ```
@@ -28,8 +28,8 @@ We rely on the compass rose to identify ray-directions with following increments
   soWe         sout         soEa
 ```
 
-#Some bitboard constants with LERF-mapping:
-
+# Some bitboard constants with LERF-mapping:
+```
 a-file             0x0101010101010101
 h-file             0x8080808080808080
 1st rank           0x00000000000000FF
@@ -38,5 +38,6 @@ a1-h8 diagonal     0x8040201008040201
 h1-a8 antidiagonal 0x0102040810204080
 light squares      0x55AA55AA55AA55AA
 dark squares       0xAA55AA55AA55AA55
+```
 
-From: https://www.chessprogramming.org/Square_Mapping_Considerations#Endianness
+Fro``m: https://www.chessprogramming.org/Square_Mapping_Considerations#Endianness
