@@ -40,4 +40,4 @@ light squares      0x55AA55AA55AA55AA
 dark squares       0xAA55AA55AA55AA55
 ```
 
-Fro``m: https://www.chessprogramming.org/Square_Mapping_Considerations#Endianness
+From: https://www.chessprogramming.org/Square_Mapping_Considerations#Endianness
